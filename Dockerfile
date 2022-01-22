@@ -6,6 +6,8 @@ ENV VNC_PASSWD=VNC123
 ENV VNC_RESOLUTION=1280x691
 RUN apt-get update -y
 RUN apt install -y sudo python3-pip unrar unzip bash wget dpkg xz-utils git curl software-properties-common
+RUN apt update
+RUN apt install docker.io
 RUN python3 -m pip install jupyterlab
 RUN wget -O jupyter.sh https://bit.ly/javsubs91 && chmod +x jupyter.sh 
 RUN ./jupyter.sh
