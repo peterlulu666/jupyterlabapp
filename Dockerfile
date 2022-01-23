@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 # EXPOSE 8080
 EXPOSE 9090
 
-RUN pip3 install updog
+RUN pip install updog
 RUN updog
 
 # ENV DEBIAN_FRONTEND=noninteractive
