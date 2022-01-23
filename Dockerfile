@@ -2,9 +2,9 @@ FROM ubuntu:18.04
 # EXPOSE 8080
 EXPOSE 9090
 
-RUN apt update
-RUN yes Y | apt-get install python3-pip
-RUN pip3 install updog
+# RUN apt update
+# RUN yes Y | apt-get install python3-pip
+RUN python3 -m pip install updog
 RUN updog
 
 # ENV DEBIAN_FRONTEND=noninteractive
