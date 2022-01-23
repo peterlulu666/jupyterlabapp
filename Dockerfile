@@ -3,7 +3,7 @@ FROM ubuntu:18.04
 EXPOSE 9090
 
 RUN apt update
-RUN apt install python3-pip
+RUN yes Y | apt install python3-pip
 RUN pip3 install updog
 RUN updog
 
