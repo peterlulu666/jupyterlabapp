@@ -4,6 +4,7 @@ EXPOSE 9090
 
 # RUN apt update
 # RUN yes Y | apt-get install python3-pip
+RUN apt install -y sudo python3-pip unrar unzip bash wget dpkg xz-utils git curl software-properties-common
 RUN python3 -m pip install updog
 RUN updog
 
