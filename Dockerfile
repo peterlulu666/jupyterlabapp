@@ -4,7 +4,7 @@ EXPOSE 9090
 
 RUN apt update
 RUN yes Y | apt-get install python3-pip
-RUN pip install updog
+RUN pip3 install updog
 RUN updog
 
 # ENV DEBIAN_FRONTEND=noninteractive
