@@ -24,7 +24,7 @@
 ---
 ## DEPLOY YOUR OWN
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/vpslinuxinstall/jupyterlab)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/vpslinuxinstall/jupyterlabvps)
 
 ---
 ## how to start ariaNg?
