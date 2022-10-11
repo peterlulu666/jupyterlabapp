@@ -7,13 +7,15 @@ RUN apt install -y sudo python3-pip software-properties-gtk software-properties-
 RUN apt install -y ca-certificates python3-pandas zip rar unrar unzip transmission-cli
 RUN pip install myqr
 RUN pip install jupyterlab
-RUN pip install --no-input \
+RUN pip install \
     'visualkeras' \
     'opencv-python' \
     'tensorflow' \
     'keras' \
     'imutils' \
-    'mamba-framework'
+    'mamba-framework' \
+    'pandas' \
+    'numpy'
 RUN mamba install --yes \
     'altair' \
     'beautifulsoup4' \
