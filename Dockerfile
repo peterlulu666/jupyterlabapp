@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 EXPOSE 8080
-
+ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update -y
 RUN apt update
 RUN apt install -y sudo python3-pip software-properties-gtk software-properties-common bash wget dpkg xz-utils git curl
