@@ -2,14 +2,7 @@
   "name": "JupyterLab",
   "description": "jupyterlab",
   "logo": "https://raw.githubusercontent.com/javsubs91/AriaNg/main/lab.png",
-  "keywords": ["jupyter", "jupyterlab", "heroku", "web", "herokuweb", "noVNC", "AriaNg", "docker"],
-  "env": {
-     "CONFIG_FILE_IN_URL": {
-      "description": "Please Paste your rclone.conf file url. Use https://gist.github.com" ,
-      "value": ""
-      }
-    },
- 
+  "keywords": ["jupyterlab"],
   "website": "",
   "repository": "",
   "stack": "container"
