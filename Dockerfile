@@ -3,7 +3,7 @@ EXPOSE 8080
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update -y
 RUN apt update
-RUN apt install -y sudo python3-pip software-properties-gtk software-properties-common bash wget dpkg xz-utils git curl
+RUN apt install -y sudo python3-pip software-properties-gtk software-properties-common bash wget dpkg xz-utils git curl htop
 RUN apt install -y ca-certificates python3-pandas zip rar unrar unzip transmission-cli
 RUN pip install myqr
 RUN pip install jupyterlab
