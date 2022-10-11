@@ -12,7 +12,8 @@ RUN pip install --no-input \
     'opencv-python' \
     'tensorflow' \
     'keras' \
-    'imutils' 
+    'imutils' \
+    'mamba-framework'
 RUN mamba install --yes \
     'altair' \
     'beautifulsoup4' \
