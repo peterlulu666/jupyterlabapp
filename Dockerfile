@@ -14,7 +14,9 @@ RUN pip install \
     'keras' \
     'imutils' \
     'pandas' \
-    'numpy'
+    'numpy' \
+    'sklearn' \
+    'seaborn'
 RUN yes Y | apt install docker.io
 COPY jupyter.py /conf/jupyter.py
 COPY jupyter_notebook_config.json /root/.jupyter/jupyter_notebook_config.json
